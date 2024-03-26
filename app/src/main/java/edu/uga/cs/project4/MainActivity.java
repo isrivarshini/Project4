@@ -11,7 +11,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         ViewPager2 pager=findViewById(R.id.viewpager);
+=======
+        ViewPager2 pager=findViewById(R.id.viewPager);
+>>>>>>> 86a07a8 (Initial commit)
         QuizAdapter quizAdapter = new QuizAdapter(getSupportFragmentManager(), getLifecycle());
         pager.setOrientation(ViewPager2.ORIENTATION_HORIZONTAL );
         pager.setAdapter( quizAdapter );

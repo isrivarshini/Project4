@@ -4,15 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
+=======
+    android:backgroundTint="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        style="@style/CardView.Dark"
+        android:layout_width="320dp"
+        android:layout_height="413dp"
+        android:fadingEdge="horizontal"
+>>>>>>> 86a07a8 (Initial commit)
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> 86a07a8 (Initial commit)
 </androidx.constraintlayout.widget.ConstraintLayout>
